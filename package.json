@@ -1,0 +1,33 @@
+{
+	"name": "twitter_clone_api",
+	"version": "1.0.0",
+	"description": "Backend for twitter Clone",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js",
+		"client": "npm start --prefix client",
+		"clientinstall": "npm install --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"author": "Brad Traversy",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"config": "^3.1.0",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"express-validator": "^5.3.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.5.8",
+		"shortid": "^2.2.15",
+		"use-dark-mode": "^2.3.1"
+	},
+	"devDependencies": {
+		"concurrently": "^4.1.0",
+		"nodemon": "^1.19.0"
+	},
+	"engines": {
+		"node":"13.x"
+		}
+}
