@@ -1,7 +1,8 @@
-# Twitter Clone API
+# Twitter Clone
+App built in ReactJS to search and View Tweets with Login Functunality
 
 
-### npm install
-### npm start
+## Twitter Clone Scripts
 
-
+### `npm install`
+### `npm start`
