@@ -10,7 +10,7 @@
 		"clientinstall": "npm install --prefix client",
 		"dev": "concurrently \"npm run server\" \"npm run client\""
 	},
-	"author": "Brad Traversy",
+	"author": "Tanisk Jha",
 	"license": "MIT",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
