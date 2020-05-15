@@ -1,8 +1,10 @@
 # Twitter Clone
-App built in ReactJS to search and View Tweets with Login Functunality
+
+### This is a Single Page Application, Thats Writtent in react, Context-Api and ExpressJs 
 
 
-## Twitter Clone Scripts
+## Getting Started
 
-### `npm install`
-### `npm start`
+### Step 1 -  `Add Yours Twitter Authorization Token`
+### Step 2 - `npm install`
+### Step 2 - `npm run dev`
