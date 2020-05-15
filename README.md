@@ -1,6 +1,6 @@
 # Twitter Clone
 
-### This is a Single Page Application, Thats Writtent in react, Context-Api and ExpressJs 
+### This is a Single Page Application, Written in react and ExpressJs 
 
 
 # Getting Started
