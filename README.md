@@ -3,7 +3,7 @@
 ### This is a Single Page Application, Thats Writtent in react, Context-Api and ExpressJs 
 
 
-## Getting Started
+# Getting Started
 
 ### Step 1 -  `Add Yours Twitter Authorization Token`
 ### Step 2 - `npm install`
