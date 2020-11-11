@@ -1,0 +1,152 @@
+/* sidebar */
+
+
+
+.sidebar_wrapper {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: brown;
+    border: 5px solid black;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: visible;
+    transition: all 0.5s;
+  }
+  
+  .sidebar_wrapper_display {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -30rem;
+    width: 30rem;
+    height: 100vh;
+    background-color: black;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    box-shadow: -0.1rem 0 0.5rem rgba(0, 0, 0, 0.3);
+    transition: right 0.5s cubic-bezier(1, 0, 0, 1);
+  }
+  
+  .sidebar_display {
+    right: 0;
+  }
+  
+  .sidebar_header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1rem solid #eee;
+  }
+  
+  .sidebar_header h2 {
+    font-size: 2rem;
+  }
+  
+  .sidebar_header i {
+    margin-left: auto;
+    font-size: 2.5rem;
+    color: #1aa1f5;
+    cursor: pointer;
+  }
+  
+  .sidebar_user {
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+  }
+  
+  .sidebar_user_img {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .sidebar_user_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .sidebar_user span {
+    margin-left: auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 5rem;
+    border: 0.1rem solid #1aa1f5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1aa1f5;
+  }
+  
+  .sidebar_user_info {
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+  }
+  
+  .sidebar_user_info h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .following {
+    display: flex;
+    padding: 1.5rem 0;
+  }
+  
+  .following_paragraph {
+    font-size: 1.8rem;
+  }
+  
+  .following_paragraph:first-child {
+    margin-right: 2.5rem;
+  }
+  
+  .following_paragraph span {
+    font-weight: bold;
+  }
+  
+  .sidebar_list_1 {
+    border-bottom: 0.1rem solid #eee;
+  }
+  
+  .sidebar_list_1 ul {
+    list-style: none;
+    padding: 1.5rem 0;
+  }
+  
+  .sidebar_list_1 li {
+    margin-bottom: 2.5rem;
+  }
+  
+  .sidebar_list_1 a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #868383;
+  }
+  
+  .sidebar_list_1 i {
+    margin-right: 1rem;
+  }
+  
+  .sidebar_list_2 ul {
+    list-style: none;
+    padding: 3rem 0;
+  }
+  
+  .sidebar_list_2 li {
+    margin-bottom: 2.5rem;
+  }
+  
+  .sidebar_list_2 a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #868383;
+  }

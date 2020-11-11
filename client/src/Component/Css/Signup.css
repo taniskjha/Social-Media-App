@@ -1,0 +1,387 @@
+
+  
+  /* login page */
+  .login-page {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(5rem, 1fr) 2fr minmax(5rem, 1fr);
+    grid-template-rows: repeat(2, min-content) 1fr;
+    grid-row-gap: 1.5rem;
+    /* background-color: white; */
+  }
+  
+  /* login page nav */
+  .login-page-nav {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-color: #fff;
+    padding: 2.5rem 0;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-page-nav ul {
+    width: 100rem;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+  }
+  
+  .login-page-nav li {
+    margin: 0 1rem;
+    position: relative;
+  }
+  
+  .login-page-nav li:last-child {
+    margin-left: auto;
+  }
+  
+  .login-page-nav li::after {
+    content: "";
+    width: 100%;
+    height: 0.4rem;
+    background-color: #1aa1f5;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .login-page-nav li:hover::after {
+    opacity: 1;
+  }
+  
+  .login-page-nav a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .login-page-nav li:hover a {
+    color: #1aa1f5;
+  }
+  
+  .login-page-nav i {
+    color: #1aa1f5;
+    font-size: 2rem;
+  }
+  /* end of login page nav */
+  
+  /* login */
+  .login {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: #fff;
+    width: 100rem;
+    display: grid;
+    grid-template-columns: 10rem 8fr;
+    grid-template-rows: 2fr 1fr;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+  }
+  
+  .login-content {
+    grid-column: 2 / -1;
+    grid-row: 1 /2;
+    padding: 5rem 0 1rem 0;
+  }
+  
+  .login-content h2 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input:not(.login-form-checkbox) {
+    width: 30rem;
+    height: 3.5rem;
+    margin-bottom: 1rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form input:focus {
+    background-color: #d9ebf7;
+  }
+  
+  .login-form div {
+    margin-top: 2rem;
+  }
+  
+  .login-form button {
+    padding: 1rem 1.5rem;
+    background-color: #1aa1f5;
+    color: #fff;
+    border-radius: 4rem;
+    border: 0.1rem solid #1aa1f5;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .login-form label {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-right: 1rem;
+  }
+  
+  .login-form a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #1aa1f5;
+  }
+  
+  .login-footer {
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+    background-color: #edf3f7;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .login-footer p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+  }
+  
+  .login-footer a {
+    text-decoration: none;
+    color: #1aa1f5;
+  }
+  
+  /* end of login */
+  /* end of login page */
+
+  /* responsive */
+@media (max-width: 1300px) {
+  /* main page */
+  .middle-content {
+    width: 60%;
+  }
+
+  .main-page-footer ul {
+    flex-wrap: wrap;
+  }
+
+  .main-page-footer li {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* main page */
+  .main-page {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr) min-content;
+  }
+
+  .right {
+    grid-column: 1 / 2;
+    grid-row: 1/ 2;
+    width: 70%;
+    margin: auto;
+  }
+
+  .right-content-form {
+    display: none;
+  }
+
+  .left {
+    grid-row: 2 / 3;
+  }
+
+  .left-content {
+    width: 50%;
+    margin: auto;
+  }
+
+  .left-content h3 {
+    line-height: 3rem;
+  }
+
+  .main-page-footer {
+    grid-row: 3 / 4;
+  }
+
+  /* login page */
+  .login-page-nav ul {
+    width: 80rem;
+  }
+
+  .login {
+    width: 80rem;
+  }
+
+  .login-modal {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 900px) {
+  /* login page */
+  .login-page-nav ul {
+    width: 60rem;
+  }
+
+  .login {
+    width: 60rem;
+  }
+
+  .login-modal {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 800px) {
+  /* main page */
+  .right {
+    width: 80%;
+  }
+
+  .middle-content i {
+    display: none;
+  }
+
+  .middle-content h1 {
+    margin-bottom: 2rem;
+  }
+
+  .middle-content h4 {
+    margin-bottom: 1rem;
+  }
+
+  .left-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  /* login page */
+  .login-page-nav ul {
+    width: 50rem;
+  }
+
+  .login {
+    width: 50rem;
+  }
+
+  .login-modal {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* main page */
+  .main-page {
+    grid-template-rows: 1fr min-content;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .right {
+    grid-row: 1 / 2;
+    width: 90%;
+  }
+
+  /* login page */
+  .login-page-nav ul {
+    width: 40rem;
+  }
+
+  .login {
+    width: 40rem;
+    grid-template-columns: 5rem 8fr;
+  }
+
+  .login-form label {
+    font-size: 1.4rem;
+  }
+
+  .login-form a {
+    font-size: 1.4rem;
+  }
+
+  .login-footer {
+    padding-left: 5rem;
+  }
+
+  .login-footer p {
+    font-size: 1.4rem;
+  }
+
+  .login-modal {
+    width: 30rem;
+  }
+
+  .login-modal i {
+    top: 2.5rem;
+  }
+
+  .login-modal p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /* main page */
+  .middle-content h1 {
+    font-size: 2.5rem;
+  }
+
+  /* login page */
+  .login-page-nav ul {
+    width: 30rem;
+  }
+
+  .login {
+    width: 30rem;
+    grid-template-columns: 2rem 8fr;
+  }
+
+  .login-form input:not(.login-form-checkbox) {
+    width: 20rem;
+  }
+
+  .login-form a {
+    display: block;
+    margin-top: 1.5rem;
+  }
+
+  .login-footer {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /* login page */
+  .login-page {
+    grid-template-columns: 2rem 2fr 2rem;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  .login-modal {
+    width: 25rem;
+  }
+}
+/* end of responsive */
+  
