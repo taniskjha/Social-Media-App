@@ -1,3 +1,3 @@
-## [Watch The Demo Here](https://youtu.be/VhXs3kLjuCk)
+## 1 - [Watch The Demo Here](https://youtu.be/VhXs3kLjuCk)
 
-## [View The Live Project](clonetwit.herokuapp.com)
+## 2 - [View The Live Project](clonetwit.herokuapp.com)
