@@ -1,0 +1,48 @@
+{
+  "name": "sybill",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sybills",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "postcss": "^8.2.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-player": "^2.9.0",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-simple-snackbar": "^1.1.10"
+  },
+  "scripts": {
+    "build:css": "postcss src/styles/index.css -o src/index.css",
+    "watch:css": "postcss src/styles/index.css -o src/index.css -w",
+    "start": "react-scripts start",
+    "dev": "concurrently \"npm run watch:css\" \" npm run start \"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
