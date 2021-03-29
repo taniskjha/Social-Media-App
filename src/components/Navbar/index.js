@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   navContainer: `flex items-center justify-center w-full border-b-2 py-6 mb-8`,
   logoContainer: `flex`,
-  logo: `h-10 w-10 mr-3`,
+  logo: `h-10 w-full mr-3`,
   logoText: `text-3xl font-semibold`,
 };
 

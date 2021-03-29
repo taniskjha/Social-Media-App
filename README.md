@@ -1,24 +1,31 @@
-## Sybill Challenge
+## Videzzy Bookmarking Application
 
-I Approached this challenge as if it was an application going to production.  
+![Videzzy Bookmarking Application](https://user-images.githubusercontent.com/54271649/112861483-74ada100-90d2-11eb-9ebe-a0969d659cd3.png)
 
-I won't say it's perfect (no production code is), 
+#### This project took me just 2 hours to build.
 
-but this is representative of something that I would be comfortable releasing to a production environment.
-
-I have broken the application into very tiny + reusable components.
-
-That means, better performance, a faster development speed with tons of money and time saved in the long-run.
+"Videzzy" is Bookmarking Application, which allows you to bookmark videos and watch it later on your browser
 
 ### Live Demo
-[Click here to see it live](https://sybill.vercel.app/)
+[Click here to see it live](https://videzzy.vercel.app/)
 
 
 ## Installation
 ```bash
-cd sybill && yarn && yarn dev
+git clone https://github.com/taniskjha/videzzy-bookmarking-app.git
+cd [FolderName] && yarn
 ```
+## Start the project
+```bash
+cd [FolderName]
+yarn dev
+```
+
 ## Built with 
 
 - ReactJs
 - TailwindCss
+
+
+Love to build stuff? Connect with me on [Whatsapp](https://wa.me/+916363438885) or [LinkedIn](https://www.linkedin.com/in/tanisk-jha-4442021a0/)
+Let's have a chat 😬

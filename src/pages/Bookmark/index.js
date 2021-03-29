@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo.svg";
 import ContentLoader from "../../components/ContentLoader";
 import Navbar from "../../components/Navbar";
 import Stamps from "../../components/Stamps";
@@ -42,7 +42,7 @@ const Index = () => {
   return (
     <Layout>
       <main className={styles.videoContainer}>
-        <Navbar src={'https://reactexpert-io.vercel.app/static/media/logo.1f00fece.png'} logotxt="Bookmarking Application" />
+        <Navbar src={Logo}/>
         {loader ? (
           <ContentLoader />
         ) : (
