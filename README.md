@@ -2,8 +2,6 @@
 
 ![Videzzy Bookmarking Application](https://user-images.githubusercontent.com/54271649/112861483-74ada100-90d2-11eb-9ebe-a0969d659cd3.png)
 
-#### This project took me just 2 hours to build.
-
 "Videzzy" is Bookmarking Application, which allows you to bookmark videos and watch it later on your browser
 
 ### Live Demo
